@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>LOJA VIRTUAL</title>
+</head>
+
+<body>
+    
+
+<div class="compras">
+<a href="carrinho.html">
+<ol>
+    <li>Minhas compras</li>
+<li><img class="carrinho" src="carro.png"></li>
+</ol>   
+</a>
+</div>
+
+<!--botão de pesquisa-->
+    <div class=" search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar">
+        <a href="#" class="search-btn">
+            <img src="loupe.svg" alt="Lupa" height="20" width="20">
+        </a>
+    </div>
+ <!--contraste-->
+    <div>
+        <input type="checkbox" class="checkbox" id="chk"/>
+    
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    
+    </div>
+    <script src="script.js"></script>
+    <!--icones-->
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
+<!--libras-->
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
